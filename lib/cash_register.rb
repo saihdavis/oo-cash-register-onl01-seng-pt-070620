@@ -18,8 +18,8 @@ class CashRegister
       @items << title
       counter += 1 
   end
-      
-
+end    
+end
   
   def apply_discount
     if @discount > 0
