@@ -40,7 +40,7 @@ end
   end
   
   def void_last_transaction
-    binding pry
+    binding.pry
   end
   
 end
