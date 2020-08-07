@@ -20,7 +20,8 @@ class CashRegister
   end
     else
       @items << title
-end    
+end  
+    @last
 end
   
   def apply_discount
