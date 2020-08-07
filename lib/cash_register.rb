@@ -19,7 +19,7 @@ class CashRegister
       counter += 1 
   end
       
-end
+
   
   def apply_discount
     if @discount > 0
