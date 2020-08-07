@@ -13,8 +13,9 @@ class CashRegister
     @price = price 
     @total += price * quantity
     if quantity > 1 
-      
+      counter = 0 
   end
+end
   
   def apply_discount
     if @discount > 0
