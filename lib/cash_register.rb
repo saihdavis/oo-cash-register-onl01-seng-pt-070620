@@ -19,7 +19,7 @@ class CashRegister
       counter += 1 
   end
     else
-      
+      @items << title
 end    
 end
   
