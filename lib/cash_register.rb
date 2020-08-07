@@ -13,7 +13,8 @@ class CashRegister
     @price = price 
     @total += price * quantity
     if quantity > 1 
-      counter = 0 
+      counter = 0
+      while 
   end
 end
   
